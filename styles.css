@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Red Hat Display";
+    src: url("fonts/RedHatDisplay-Regular.ttf");
+}
+
+h1 {
+    font-family: "Red Hat Display";
+    font-size: 28px;
+    color: #1F2E55;
+    text-align: center;
+    margin: 0px;
+    padding-top: 45px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    color: #1F2E55;
+    font-weight: bolder;
+    margin: -5px 0px 0px 0px;
+}
+
+h3 {
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    color: #717FA6;
+    margin: 0px;
+    padding-top: 6px;
+}
+
+h4 {
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    color: #717FA6;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+p {
+    font-family: "Red Hat Display";
+    font-weight: 400;
+    font-size: 16px;
+    color: #717FA6;
+    text-align: center;
+    width: 354px;
+    margin: auto;
+    padding-top: 17px;
+    padding-bottom: 29px;
+}
+
+a {
+    font-family: "Red Hat Display";
+    color: #382AE1;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    padding-top:20px;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-size: auto;  
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#box {
+    width: 450px;
+    margin: 150px auto auto auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 4 4 0 25%;
+    border-radius: 20px;
+}
+
+#box img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+#annual-plan {
+    background-color: #F7F9FF;
+    width: 310px;
+    margin: auto;
+    padding: 24px 25px 25px 24px;
+}
+
+#annual-plan img {
+    padding-right: 20px;
+}
+
+#text {
+    display: inline-block;
+}
+
+button {
+    font-family: "Red Hat Display";
+    background-color:#382AE1;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 55px;
+    padding: 15px 102px 15px 102px;
+    border-radius: 11px;
+    border: none;
+}
